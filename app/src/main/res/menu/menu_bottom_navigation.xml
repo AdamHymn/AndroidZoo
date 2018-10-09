@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_staff"
+        android:title="员工"
+        android:icon="@drawable/yuangong"/>
+
+  <item
+        android:id="@+id/action_wx"
+        android:title="维修单"
+        android:icon="@drawable/weixiu"/>
+    <item
+        android:id="@+id/action_me"
+        android:title="我的"
+        android:icon="@drawable/me"/>
+
+</menu>

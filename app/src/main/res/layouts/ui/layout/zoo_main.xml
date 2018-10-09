@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_root_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_background">
+
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="56dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/element_margin_0.5"
+        android:layout_above="@+id/main_bottom"
+        android:background="@color/gray_line" />
+
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_staff"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_staff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bt_market_bg"
+                android:paddingBottom="2dip"
+                android:paddingTop="8dip"
+                android:scaleType="matrix"
+                android:text="@string/fg_home"
+                android:textColor="@color/selector_blue_black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_assets"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_assets"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bt_home_bg"
+                android:paddingBottom="2dip"
+                android:paddingTop="8dip"
+                android:scaleType="matrix"
+                android:text="@string/fg_assets"
+                android:textColor="@color/selector_blue_black"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_wbd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_wbd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bt_daili_bg"
+                android:paddingBottom="2dip"
+                android:paddingTop="8dip"
+                android:scaleType="matrix"
+                android:text="@string/fg_wj"
+                android:textColor="@color/selector_blue_black"
+                android:textSize="13sp" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rl_my"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn_my"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/transparent"
+                android:drawableTop="@drawable/bt_geren_bg"
+                android:paddingBottom="2dip"
+                android:paddingTop="8dip"
+                android:scaleType="matrix"
+                android:text="@string/fg_me"
+                android:textColor="@color/selector_blue_black"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>

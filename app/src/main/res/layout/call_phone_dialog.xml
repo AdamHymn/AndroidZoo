@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp" >
+
+    <LinearLayout
+        android:id="@+id/call_phone_dialog_call"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/element_margin_50"
+        android:layout_marginLeft="@dimen/element_margin_2"
+        android:layout_marginRight="@dimen/element_margin_2"
+        android:background="@drawable/bg_roundrect_white_top" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="拨打电话"
+            android:textColor="@color/top_bar_normal_bg"
+            android:textSize="@dimen/text_size_18_dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey3"
+        android:layout_marginLeft="@dimen/element_margin_2"
+        android:layout_marginRight="@dimen/element_margin_2" />
+
+    <LinearLayout
+        android:id="@+id/call_phone_dialog_call_number_liner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/element_margin_50"
+        android:layout_marginLeft="@dimen/element_margin_2"
+        android:layout_marginRight="@dimen/element_margin_2"
+        android:background="@drawable/bg_roundrect_bottom"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/call_phone_dialog_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textColor="@color/top_bar_normal_bg"
+            android:textSize="@dimen/text_size_18_dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/call_phone_dialog_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/element_margin_50"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="@dimen/element_margin_2"
+        android:layout_marginRight="@dimen/element_margin_2"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_roundrect_white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="取消"
+            android:textColor="@color/grey11"
+            android:textSize="@dimen/text_size_18_dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

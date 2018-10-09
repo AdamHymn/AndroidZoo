@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 对话框一按钮，一个view -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dg_radius_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/common_dialog_one_buton_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:text="请登录"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_margin="@dimen/element_margin_15"
+            />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:paddingBottom="@dimen/element_margin_20"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/common_dialog_one_buton_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sssssssssssssrrrrrrrrrrrrr"
+            android:layout_centerVertical="true"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_18_dp"
+            />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/element_margin_0.1"
+        android:background="#a4a4a4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/element_margin_15"
+        android:paddingRight="@dimen/element_margin_15" >
+
+        <Button
+            android:id="@+id/btn_choose"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/transparent"
+            android:text="以及"
+            android:textColor="@color/theme_color"
+            android:textSize="@dimen/text_size_20_dp" />
+    </LinearLayout>
+
+</LinearLayout>

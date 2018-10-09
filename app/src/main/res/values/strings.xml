@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">项目原型</string>
+    <string name="copyright_title">安卓科技</string>
+    <string name="copyright">&#169; Copyright By Hymn S&amp;T Co.,Ltd</string>
+    <string name="fg_home">首页</string>
+    <string name="fg_news">新闻</string>
+    <string name="fg_me">我的</string>
+    <string name="fg_staff">员工</string>
+    <string name="fg_assets">趋势</string>
+    <string name="fg_wj">文件</string>
+
+    <string name="register">注册</string>
+    <string name="login">登录</string>
+    <string name="send">发送</string>
+    <string name="save">保存</string>
+    <string name="detail">详情</string>
+    <string name="ok">确定</string>
+
+    <string name="yqm_empty">邀请码不能为空</string>
+    <string name="nickname_empty">姓名不能为空</string>
+    <string name="name_empty">账号不能为空</string>
+    <string name="phone_empty">手机号不能为空</string>
+    <string name="pwd_empty">密码不能为空</string>
+    <string name="yzm_empty">验证码不能为空</string>
+    <string name="email_empty">邮箱不能为空</string>
+    <string name="phone_error">手机号码格式不正确</string>
+    <string name="phone_length_error">手机号长度为11位</string>
+    <string name="pwd_length_error">密码长度至少为6位</string>
+    <string name="email_error">邮箱格式不正确</string>
+    <string name="pwd1">请输入新密码</string>
+    <string name="pwd2">请输入确认密码</string>
+    <string name="pwd_diff">两次输入密码不一致</string>
+    <string name="delegate_agree">请先勾选同意协议</string>
+
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="network_not_connected">网络连接失败，请检查网络设置</string>
+    <string name="null_str"> </string>
+
+    <string name="pull_to_refresh_footer_release_label">松开加载更多</string>
+    <string name="pull_to_refresh_footer_pull_label">上拉加载更多</string>
+    <string name="pull_to_refresh_footer_refreshing_label">加载中\u2026</string>
+
+    <!--权限相关-->
+    <string name="notifyTitle">提示</string>
+    <string name="notifyMsg">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="last_step">上一步</string>
+    <string name="next_step">下一步</string>
+
+    <!--网络访问-->
+    <string name="uploading">上传中...</string>
+    <string name="loading">加载中...</string>
+    <string name="logining">登录中...</string>
+    <string name="sending">验证码发送中...</string>
+    <string name="dealwithing">处理中...</string>
+    <string name="net_no">无网络连接</string>
+
+    <string name="header_tips_pull">下拉刷新</string>
+    <string name="header_time">刷新时间：%s</string>
+    <string name="header_time_now">本次刷新时间：%s</string>
+    <string name="header_time_pre">上次刷新时间：%s</string>
+    <string name="header_tips_release">松开刷新</string>
+    <string name="header_tips_refresing">正在刷新...</string>
+    <string name="footer_loadmore">载入更多</string>
+    <string name="footer_loading">正在加载...</string>
+    <string name="footer_nothing">没有数据了！</string>
+    <string name="footer_nodata">没有数据</string>
+
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EaseTitleBar">
+        <attr name="titleBarValue" format="string"/>
+        <attr name="titleBarLeftImg" format="reference"/>
+        <attr name="titleBarRightName" format="string"/>
+        <attr name="titleBarBg" format="reference|color"/>
+    </declare-styleable>
+</resources>

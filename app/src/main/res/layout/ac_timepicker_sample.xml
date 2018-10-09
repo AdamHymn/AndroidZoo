@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray">
+    <RelativeLayout 
+        android:id="@+id/fg_chargemgt_rl_conditions"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@color/gray">
+        <EditText 
+            android:id="@+id/fg_chargemgt_et_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/gray"/>
+        <ImageView 
+            android:id="@+id/fg_chargemgt_iv_conditions"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_launcher"/>
+    </RelativeLayout>
+    
+</RelativeLayout>

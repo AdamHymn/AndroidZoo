@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/title_bar_left_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingTop="@dimen/element_margin_10"
+            android:layout_marginLeft="@dimen/element_margin_10"
+            android:gravity="center_vertical|left"
+            android:clickable="true"
+            android:minWidth="@dimen/element_margin_50">
+
+            <ImageView
+                android:id="@+id/iv_left_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerInside"
+                android:clickable="false"
+                android:src="@drawable/back_icn" />
+
+            <TextView
+                android:id="@+id/tv_left_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:background="@color/transparent"
+                android:text="@string/last_step"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_subtitle_sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/element_margin_10"
+            android:maxWidth="250dp"
+            android:layout_centerInParent="true"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size_main_title_sp" />
+
+        <LinearLayout
+            android:id="@+id/title_bar_right_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="@dimen/element_margin_50"
+            android:clickable="true"
+            android:paddingTop="@dimen/element_margin_10"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/element_margin_10"
+            android:gravity="center_vertical|right">
+
+            <ImageView
+                android:id="@+id/iv_right_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/add_white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:background="@color/transparent"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_subtitle_sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <fragment
+        android:id="@+id/conversation"
+        android:name="io.rong.imkit.fragment.ConversationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

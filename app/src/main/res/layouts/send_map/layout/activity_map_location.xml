@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_search"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_input_50"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/element_margin_10"
+        android:text="输入搜索位置"
+        android:textSize="@dimen/text_size_cell_1_sp"
+        android:textColor="@color/text_gray"
+        android:background="@color/white"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/gs_map"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <ImageView
+            android:id="@+id/iv_loaction"
+            android:layout_width="@dimen/element_margin_50"
+            android:layout_height="@dimen/element_margin_50"
+            android:layout_gravity="right"
+            android:src="@drawable/locator" />
+
+    </FrameLayout>
+
+   <!-- <android.support.v7.widget.RecyclerView
+        android:id="@+id/map_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />-->
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/map"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight="1px"
+        android:divider="@android:color/darker_gray"/>
+</LinearLayout>

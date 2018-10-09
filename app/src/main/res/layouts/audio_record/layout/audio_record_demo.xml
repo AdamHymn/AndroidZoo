@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        android:textColor="@color/white"
+        android:background="@color/theme_color"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="长按录音，松开发送，上滑取消"
+        android:textColor="@color/white"
+        android:background="@color/theme_color"
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:id="@+id/iv_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/record_level"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/element_margin_10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/iv_record"
+        android:text="00:00"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/text_size_14_sp"/>
+</RelativeLayout>

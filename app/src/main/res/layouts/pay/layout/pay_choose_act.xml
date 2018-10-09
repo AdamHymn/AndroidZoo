@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_sum"
+        style="@style/style_text_gray_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/element_margin_10"
+        android:text="维修保证金：¥ 500.00" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rg_zhifu"
+            style="@style/style_left_right_top_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rb_zfb"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_input_50"
+                android:gravity="center_vertical"
+                android:checked="true"
+                android:button="@null"
+                android:drawableBottom="@drawable/line"
+                android:drawableLeft="@drawable/zhifubao"
+                android:drawablePadding="@dimen/element_margin_10"
+                android:drawableRight="@drawable/cb_blue_white"
+                android:text="支付宝"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_14_sp" />
+
+
+            <RadioButton
+                android:id="@+id/rb_wx"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/element_margin_10"
+                android:layout_height="@dimen/height_input_50"
+                android:button="@null"
+                android:drawableLeft="@drawable/wechat"
+                android:drawablePadding="@dimen/element_margin_10"
+                android:drawableRight="@drawable/cb_blue_white"
+                android:drawableBottom="@drawable/line"
+                android:text="微信"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_14_sp" />
+
+            <RadioButton
+                android:id="@+id/rb_ye"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_input_50"
+                android:layout_marginTop="@dimen/element_margin_10"
+                android:button="@null"
+                android:drawableBottom="@drawable/line"
+                android:drawableLeft="@drawable/touxiang"
+                android:drawablePadding="@dimen/element_margin_10"
+                android:drawableRight="@drawable/cb_blue_white"
+                android:gravity="center_vertical"
+                android:text="账户余额"
+                android:textColor="@color/text_black"
+                android:textSize="@dimen/text_size_14_sp" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_ye"
+            style="@style/style_left_right_top_10"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_input_50"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/touxiang"
+            android:drawablePadding="@dimen/element_margin_10"
+            android:drawableRight="@drawable/cb_switcher"
+            android:text="账户余额抵扣：¥ 50.00"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_size_14_sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/element_margin_10"
+        android:text="维修保证金说明："
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_size_16_sp" />
+
+    <TextView
+        style="@style/style_text_gray_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="●企业名称：XXXX有限公司" />
+
+    <TextView
+        style="@style/style_text_gray_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="●开户行：广发银行上海延安支行" />
+
+    <TextView
+        style="@style/style_text_gray_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="●客服qq：65434789" />
+
+    <TextView
+        style="@style/style_text_gray_common"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="@dimen/element_margin_5"
+        android:text="●企业用户可以线下转账到平台的对公账户，转账完成后。" />
+
+    <Button
+        android:id="@+id/btn_buy"
+        style="@style/style_public_button"
+        android:layout_marginTop="@dimen/element_margin_50"
+        android:gravity="center"
+        android:text="立即支付"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16_sp" />
+</LinearLayout>

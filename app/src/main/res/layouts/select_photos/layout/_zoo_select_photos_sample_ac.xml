@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg">
+
+
+    <TextView
+        android:id="@+id/tv_add"
+        style="@style/style_text_black_common"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/element_margin_70"
+        android:layout_marginLeft="@dimen/element_margin_10"
+        android:layout_marginRight="@dimen/element_margin_10"
+        android:layout_marginTop="@dimen/element_margin_10"
+        android:background="@drawable/ic_launcher"
+        android:gravity="center"
+        android:paddingTop="40dp"
+        android:textColor="@color/colorAccent"
+        android:text="上传照片"/>
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        android:gravity="center"
+        android:layout_alignTop="@+id/tv_add"
+        android:layout_toRightOf="@+id/tv_add"
+        android:layout_toEndOf="@+id/tv_add" />
+    <ImageView
+        android:id="@+id/iv2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        android:gravity="center"
+        android:layout_alignTop="@+id/iv"
+        android:layout_toRightOf="@+id/iv"
+        android:layout_toEndOf="@+id/iv"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+
+
+</RelativeLayout>
